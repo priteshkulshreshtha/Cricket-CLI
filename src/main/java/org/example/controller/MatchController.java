@@ -1,6 +1,10 @@
-package org.example;
+package org.example.controller;
 
 
+import org.example.player.Batsman;
+import org.example.player.Bowler;
+import org.example.cricketTeam.CricketTeam;
+import org.example.utils.MatchStatsUtil;
 
 public class MatchController {
     private final CricketTeam teamA;

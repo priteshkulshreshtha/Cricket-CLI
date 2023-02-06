@@ -1,4 +1,8 @@
-package org.example;
+package org.example.cricketTeam;
+
+import org.example.player.Batsman;
+import org.example.player.Bowler;
+import org.example.player.Player;
 
 import java.util.ArrayList;
 

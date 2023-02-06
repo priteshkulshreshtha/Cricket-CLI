@@ -1,4 +1,6 @@
-package org.example;
+package org.example.utils;
+
+import org.example.player.Bowler;
 
 public class BatsmanStats {
     private int runsScored = 0;

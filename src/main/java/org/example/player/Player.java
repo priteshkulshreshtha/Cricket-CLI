@@ -1,8 +1,13 @@
-package org.example;
+package org.example.player;
+
+import org.example.player.Batsman;
+import org.example.player.Bowler;
+import org.example.utils.BatsmanStats;
+import org.example.utils.BowlerStats;
 
 import java.util.Random;
 
-public class Player implements Batsman, Bowler{
+public class Player implements Batsman, Bowler {
 
     private final String name;
     private final BatsmanStats batsmanStats = new BatsmanStats();
